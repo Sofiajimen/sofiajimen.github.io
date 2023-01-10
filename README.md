@@ -1,32 +1,49 @@
-Freelancer Jekyll theme  [![Build Status](https://api.travis-ci.org/jeromelachaud/freelancer-theme.svg?branch=master)](https://travis-ci.org/jeromelachaud/freelancer-theme/) 
-=========================
+# Vonge
 
-Jekyll theme based on [Freelancer bootstrap theme ](http://startbootstrap.com/template-overviews/freelancer/)
+Vonge is a Personal portfolio/blog site template for Jekyll. Browse through a [live demo](https://jazzed-kale.cloudvent.net/).
+Increase the web presence of your brand with this configurable theme.
 
-## How to use
- - Place a image in `/img/portfolio/`
- - Replace `your-email@domain.com` in `_config.yml` with your email address. Refer to [formspree](http://formspree.io/) for more information.
- - Create posts to display your projects. Use the follow as an example:
-```txt
----
-layout: default
-modal-id: 1
-date: 2020-01-18
-img: cabin.png
-alt: image-alt
-project-date: January 2020
-client: The Client
-category: Web Development
-description: The description of the project
+![Vonge template screenshot](_screenshot.png)
 
----
-```
+Vonge was made by [CloudCannon](http://cloudcannon.com/), the JAMStack Cloud CMS.
+The component library is built and maintained for use with [Bookshop](https://github.com/cloudcannon/bookshop/)
 
-## Demo
-View this jekyll theme in action [here](https://jeromelachaud.com/freelancer-theme)
+Find more templates, themes and step-by-step Jekyll tutorials at [CloudCannon Community](https://cloudcannon.com/community/).
 
-## Screenshot
-![screenshot](https://raw.githubusercontent.com/jeromelachaud/freelancer-theme/master/screenshot.png)
+[![Deploy to CloudCannon](https://buttons.cloudcannon.com/deploy.svg)](https://app.cloudcannon.com/register#sites/connect/github/CloudCannon/vonge-jekyll-bookshop-template)
 
----------
-For more details, read the [documentation](http://jekyllrb.com/)
+## Features
+
+* Component library for website building
+* Fully configurable Website
+* Pre-built pages
+* Pre-styled components
+* Blog
+* Category pages
+* Testimonials
+* Portfolio
+* Live editing with [CloudCannon](http://cloudcannon.com/)
+* Optimised for editing in [CloudCannon](http://cloudcannon.com/)
+* Search engine optimisation
+
+## Develop
+
+Vonge was built with [Jekyll](http://jekyllrb.com/) version 4.2.0, but should support newer versions as well.
+
+Install the dependencies for Bookshop:
+
+~~~bash
+$ npm install
+~~~
+
+Install the Jekyll dependencies with [Bundler](http://bundler.io/):
+
+~~~bash
+$ npm run install-jekyll
+~~~
+
+Run the website:
+
+~~~bash
+$ npm start
+~~~
